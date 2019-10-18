@@ -34,7 +34,7 @@ namespace CinemaLFS.Views
                 listPeliculas.ItemsSource = listado;
             }
             else
-                await DisplayAlert("Se presento un problema","Intentalo de nuevo","");
+                await DisplayAlert(AppResources.Se_presento_un_problema,AppResources.Intentalo_de_nuevo,"");
         }
 
        

@@ -17,11 +17,11 @@
                         <StackLayout Orientation="Vertical">
                             <Label Text="{Binding Nombre}"/>
                             <StackLayout Orientation="Horizontal">
-                                <Label Text="Estreno  "/>
+                                <Label Text="{il8n:Translate Estreno}  "/>
                                 <Label Text="{Binding FechaEstreno}"/>
                             </StackLayout>
                             <StackLayout Orientation="Horizontal">
-                                <Label Text="Genero "/>
+                                <Label Text="{il8n:Translate Genero} "/>
                                 <Label Text="{Binding Genero}"/>
                             </StackLayout>
                             <StackLayout Orientation="Horizontal">

@@ -9,15 +9,15 @@
              xmlns:il8n ="clr-namespace:CinemaLFS.Helpers">
     <StackLayout Orientation="Vertical">
         <StackLayout Orientation="Horizontal">
-            <Label Text="Titulo  " />
+            <Label Text="{il8n:Translate Titulo}  " />
             <Label Text="{Binding Nombre}"/>
         </StackLayout>
         <StackLayout Orientation="Horizontal">
-            <Label Text="Fecha  " />
+            <Label Text="{il8n:Translate Fecha}  " />
             <Label Text="{Binding FechaActual}"/>
         </StackLayout>
         <StackLayout Orientation="Horizontal">
-            <Label Text="Cantidad Boletas    " />
+            <Label Text="{il8n:Translate Cantidad Boletas}    " />
             <Entry x:Name="Cantidad" Keyboard="Numeric"/>
         </StackLayout>
         <ListView ItemsSource="{Binding Funciones }" ItemSelected="Funcion_Selec"> 
